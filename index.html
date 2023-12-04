@@ -6,27 +6,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Put your description here.">
         <title>Input</title>
-        <style>
-            body {
-                background-color: #221222;
-            }
-            #output {
-                color: #fff;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div id="wrapper">
             <form action="" method="GET" id="input" onsubmit="return false;">
+                <select name="dropdown" id="drivers">
+                </select>
                 <label for="guess"></label>
-                <input type="text" id="guess">
+                <input type="text" id="guess" oninput="lock(this)">
                 <label for="submit"></label>
                 <input type="submit" id="submit" onclick="check(0)">
+                <label for="hint"> </label>
+                <input type="submit" id="hint" value="Hint" onclick="check(1)">
             </form>
             <div id="output"></div>
-            <div id="answer"></div>
+            <div id="correct"></div>
         </div>
         <div></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
         <script src="script.js"></script>
     </body>
