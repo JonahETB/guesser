@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Put your description here.">
-    <title>Input</title>
-</head>
-<body>
-    <div id="wrapper">
-        <form action="">
-            <label for="guess"></label>
-            <input type="text" id="guess">
-            <label for="submit"></label>
-            <input type="submit" id="submit" onclick="">
-        </form>
-        <div id="output"></div>
-        <div id="answer"></div>
-    </div>
-    <script src="script.js"></script>
-    <script src="data.json"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Put your description here.">
+        <title>Input</title>
+        <style>
+            body {
+                background-color: #221222;
+            }
+            #output {
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <form action="" method="GET" id="input" onsubmit="return false;">
+                <label for="guess"></label>
+                <input type="text" id="guess">
+                <label for="submit"></label>
+                <input type="submit" id="submit" onclick="check(0)">
+            </form>
+            <div id="output"></div>
+            <div id="answer"></div>
+        </div>
+        <div></div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
 </html>

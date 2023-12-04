@@ -1,202 +1,230 @@
 {
-    "date": [
-        {
-            "Red Bull Racing": {
-                "Max Verstappen": {
-                    "Country": "Netherlands",
-                    "Podiums": "98",
-                    "Points": "2586.5",
-                    "Grands Prix entered": "185",
-                    "World Championships": "3",
-                    "Highest race finish": "1 (x54)"
-                },
-                "Sergio Perez": {
-                    "Country": "Mexico",
-                    "Podiums": "35",
-                    "Points": "1486",
-                    "Grands Prix entered": "258",
-                    "World Championships": "N/A",
-                    "Highest race finish": "1 (x6)"
-                }
-            },
-            "Mercedes": {
-                "Lewis Hamilton": { 
-                    "Country": "United Kingdom",
-                    "Podiums": "197",
-                    "Points": "4639.5",
-                    "Grands Prix entered": "332",
-                    "World Championships": "7",
-                    "Highest race finish": "1 (x103)"
-                },
-                "George Russell": {
-                    "Country": "United Kingdom",
-                    "Podiums": "11",
-                    "Points": "469",
-                    "Grands Prix entered": "104",
-                    "World Championships": "N/A",
-                    "Highest race finish": "1 (x1)"
-                }
-            },
-            "Ferrari": {
-                "Charles Leclerc": { 
-                    "Country": "Monaco",
-                    "Podiums": "30",
-                    "Points": "1074",
-                    "Grands Prix entered": "125",
-                    "World Championships": "N/A",
-                    "Highest race finish": "1 (x5)"
-                },
-                "Carlos Sainz": {
-                    "Country": "Spain",
-                    "Podiums": "18",
-                    "Points": "982.5",
-                    "Grands Prix entered": "185",
-                    "World Championships": "N/A",
-                    "Highest race finish": "1 (x2)"
-                }
-            },
-            "McLaren": {
-                "Lando Norris": { 
-                    "Country": "United Kingdom",
-                    "Podiums": "13",
-                    "Points": "633",
-                    "Grands Prix entered": "104",
-                    "World Championships": "N/A",
-                    "Highest race finish": "2 (x7)"
-                },
-                "Oscar Piastri": {
-                    "Country": "Australia",
-                    "Podiums": "2",
-                    "Points": "97",
-                    "Grands Prix entered": "22",
-                    "World Championships": "N/A",
-                    "Highest race finish": "2 (x1)"
-                }
-            },
-            "Aston Martin": {
-                "Fernando Alonso": { 
-                    "Country": "Spain",
-                    "Podiums": "106",
-                    "Points": "2267",
-                    "Grands Prix entered": "380",
-                    "World Championships": "2",
-                    "Highest race finish": "1 (x32)"
-                },
-                "Lance Stroll": {
-                    "Country": "Canada",
-                    "Podiums": "3",
-                    "Points": "268",
-                    "Grands Prix entered": "143",
-                    "World Championships": "N/A",
-                    "Highest race finish": "3 (x3)"
-                }
-            },
-            "Alpine": {
-                "Pierre Gasly": { 
-                    "Country": "France",
-                    "Podiums": "4",
-                    "Points": "394",
-                    "Grands Prix entered": "130",
-                    "World Championships": "N/A",
-                    "Highest race finish": "1 (x1)"
-                },
-                "Esteban Ocon": {
-                    "Country": "France",
-                    "Podiums": "3",
-                    "Points": "422",
-                    "Grands Prix entered": "133",
-                    "World Championships": "N/A",
-                    "Highest race finish": "1 (x1)"
-                }
-            },
-            "Alfa Romeo": {
-                "Valtteri Bottas": { 
-                    "Country": "Finland",
-                    "Podiums": "67",
-                    "Points": "1797",
-                    "Grands Prix entered": "222",
-                    "World Championships": "N/A",
-                    "Highest race finish": "1 (x10)"
-                },
-                "Zhou Guanyu": {
-                    "Country": "China",
-                    "Podiums": "N/A",
-                    "Points": "12",
-                    "Grands Prix entered": "44",
-                    "World Championships": "N/A",
-                    "Highest race finish": "8 (x1)"
-                }
-            },
-            "Haas F1 Team": {
-                "Nico Hulkenberg": { 
-                    "Country": "Germany",
-                    "Podiums": "N/A",
-                    "Points": "530",
-                    "Grands Prix entered": "206",
-                    "World Championships": "N/A",
-                    "Highest race finish": "4 (x3)"
-                },
-                "Kevin Magnussen": {
-                    "Country": "Denmark",
-                    "Podiums": "1",
-                    "Points": "186",
-                    "Grands Prix entered": "164",
-                    "World Championships": "N/A",
-                    "Highest race finish": "2 (x1)"
-                }
-            },
-            "Williams": {
-                "Alexander Albon": { 
-                    "Country": "Thailand",
-                    "Podiums": "2",
-                    "Points": "228",
-                    "Grands Prix entered": "81",
-                    "World Championships": "N/A",
-                    "Highest race finish": "3 (x2)"
-                },
-                "Logan Sargeant": {
-                    "Country": "United States",
-                    "Podiums": "N/A",
-                    "Points": "1",
-                    "Grands Prix entered": "22",
-                    "World Championships": "N/A",
-                    "Highest race finish": "10 (x1)"
-                }
-            },
-            "AlphaTauri": {
-                "Yuki Tsunoda": { 
-                    "Country": "Japan",
-                    "Podiums": "N/A",
-                    "Points": "61",
-                    "Grands Prix entered": "66",
-                    "World Championships": "N/A",
-                    "Highest race finish": "4 (x1)"
-                },
-                "Daniel Ricciardo": {
-                    "Country": "Australia",
-                    "Podiums": "32",
-                    "Points": "1317",
-                    "Grands Prix entered": "239",
-                    "World Championships": "N/A",
-                    "Highest race finish": "1 (x8)"
-                },
-                "Liam Lawson": { 
-                    "Country": "New Zealand",
-                    "Podiums": "N/A",
-                    "Points": "2",
-                    "Grands Prix entered": "5",
-                    "World Championships": "N/A",
-                    "Highest race finish": "9 (x1)"
-                },
-                "Nyck De Vries": {
-                    "Country": "N",
-                    "Podiums": "N/A",
-                    "Points": "0",
-                    "Grands Prix entered": "10",
-                    "World Championships": "N/A",
-                    "Highest race finish": "12 (x1)"
-                }
-            }
-        }
-    ]
+  "redBullRacing": {
+    "team": "Red Bull Racing",
+    "verstappen": {
+        "name": "Max Verstappen",
+        "Country": "Netherlands",
+        "Podiums": "98",
+        "Points": "2586.5",
+        "Grands Prix entered": "185",
+        "World Championships": "3",
+        "Highest race finish": "1 (x54)"
+    },
+    "perez": {
+      "name": "Sergio Perez",
+      "Country": "Mexico",
+      "Podiums": "35",
+      "Points": "1486",
+      "Grands Prix entered": "258",
+      "World Championships": "N/A",
+      "Highest race finish": "1 (x6)"
+    }
+  },
+  "mercedes": {
+    "team": "Mercedes",
+    "hamilton": {
+        "name": "Lewis Hamilton",
+      "Country": "United Kingdom",
+      "Podiums": "197",
+      "Points": "4639.5",
+      "Grands Prix entered": "332",
+      "World Championships": "7",
+      "Highest race finish": "1 (x103)"
+    },
+    "russell": {
+        "name": "George Russell",
+      "Country": "United Kingdom",
+      "Podiums": "11",
+      "Points": "469",
+      "Grands Prix entered": "104",
+      "World Championships": "N/A",
+      "Highest race finish": "1 (x1)"
+    }
+  },
+  "ferrari": {
+    "team": "Ferrari",
+    "leclerc": {
+        "name": "Charles Leclerc",
+      "Country": "Monaco",
+      "Podiums": "30",
+      "Points": "1074",
+      "Grands Prix entered": "125",
+      "World Championships": "N/A",
+      "Highest race finish": "1 (x5)"
+    },
+    "sainz": {
+        "name": "Carlos Sainz",
+      "Country": "Spain",
+      "Podiums": "18",
+      "Points": "982.5",
+      "Grands Prix entered": "185",
+      "World Championships": "N/A",
+      "Highest race finish": "1 (x2)"
+    }
+  },
+  "mcLaren": {
+    "team": "McLaren",
+    "norris": {
+        "name": "Lando Norris",
+      "Country": "United Kingdom",
+      "Podiums": "13",
+      "Points": "633",
+      "Grands Prix entered": "104",
+      "World Championships": "N/A",
+      "Highest race finish": "2 (x7)"
+    },
+    "piastri": {
+        "name": "Oscar Piastri",
+      "Country": "Australia",
+      "Podiums": "2",
+      "Points": "97",
+      "Grands Prix entered": "22",
+      "World Championships": "N/A",
+      "Highest race finish": "2 (x1)"
+    }
+  },
+  "astonMartin": {
+    "team": "Aston Martin",
+    "alonso": {
+        "name": "Fernando Alonso",
+      "Country": "Spain",
+      "Podiums": "106",
+      "Points": "2267",
+      "Grands Prix entered": "380",
+      "World Championships": "2",
+      "Highest race finish": "1 (x32)"
+    },
+    "stroll": {
+        "name": "Lance Stroll",
+      "Country": "Canada",
+      "Podiums": "3",
+      "Points": "268",
+      "Grands Prix entered": "143",
+      "World Championships": "N/A",
+      "Highest race finish": "3 (x3)"
+    }
+  },
+  "alpine": {
+    "team": "Alpine",
+    "gasly": {
+        "name": "Pierre Gasly",
+      "Country": "France",
+      "Podiums": "4",
+      "Points": "394",
+      "Grands Prix entered": "130",
+      "World Championships": "N/A",
+      "Highest race finish": "1 (x1)"
+    },
+    "ocon": {
+        "name": "Esteban Ocon",
+      "Country": "France",
+      "Podiums": "3",
+      "Points": "422",
+      "Grands Prix entered": "133",
+      "World Championships": "N/A",
+      "Highest race finish": "1 (x1)"
+    }
+  },
+  "alfaRomeo": {
+    "team": "Alfa Romeo",
+    "bottas": {
+        "name": "Valtteri Bottas",
+      "Country": "Finland",
+      "Podiums": "67",
+      "Points": "1797",
+      "Grands Prix entered": "222",
+      "World Championships": "N/A",
+      "Highest race finish": "1 (x10)"
+    },
+    "guanyu": {
+        "name": "Zhou Guanyu",
+      "Country": "China",
+      "Podiums": "N/A",
+      "Points": "12",
+      "Grands Prix entered": "44",
+      "World Championships": "N/A",
+      "Highest race finish": "8 (x1)"
+    }
+  },
+  "haasF1": {
+    "team": "Haas F1 Team",
+    "hulkenberg": {
+        "name": "Nico Hulkenberg",
+      "Country": "Germany",
+      "Podiums": "N/A",
+      "Points": "530",
+      "Grands Prix entered": "206",
+      "World Championships": "N/A",
+      "Highest race finish": "4 (x3)"
+    },
+    "magnussen": {
+        "name": "Kevin Magnussen",
+      "Country": "Denmark",
+      "Podiums": "1",
+      "Points": "186",
+      "Grands Prix entered": "164",
+      "World Championships": "N/A",
+      "Highest race finish": "2 (x1)"
+    }
+  },
+  "williams": {
+    "team": "Williams",
+    "albon": {
+        "name": "Alexander Albon",
+      "Country": "Thailand",
+      "Podiums": "2",
+      "Points": "228",
+      "Grands Prix entered": "81",
+      "World Championships": "N/A",
+      "Highest race finish": "3 (x2)"
+    },
+    "sargeant": {
+        "name": "Logan Sargeant",
+      "Country": "United States",
+      "Podiums": "N/A",
+      "Points": "1",
+      "Grands Prix entered": "22",
+      "World Championships": "N/A",
+      "Highest race finish": "10 (x1)"
+    }
+  },
+  "alphaTauri": {
+    "team": "AlphaTauri",
+    "tsunoda": {
+      "name": "Yuki Tsunoda",
+      "Country": "Japan",
+      "Podiums": "N/A",
+      "Points": "61",
+      "Grands Prix entered": "66",
+      "World Championships": "N/A",
+      "Highest race finish": "4 (x1)"
+    },
+    "ricciardo": {
+      "name": "Daniel Ricciardo",
+      "Country": "Australia",
+      "Podiums": "32",
+      "Points": "1317",
+      "Grands Prix entered": "239",
+      "World Championships": "N/A",
+      "Highest race finish": "1 (x8)"
+    },
+    "lawson": {
+      "name": "Liam Lawson",
+      "Country": "New Zealand",
+      "Podiums": "N/A",
+      "Points": "2",
+      "Grands Prix entered": "5",
+      "World Championships": "N/A",
+      "Highest race finish": "9 (x1)"
+    },
+    "deVries": {
+      "name": "Nyck De Vries",
+      "Country": "Netherlands",
+      "Podiums": "N/A",
+      "Points": "0",
+      "Grands Prix entered": "10",
+      "World Championships": "N/A",
+      "Highest race finish": "12 (x1)"
+    }
+  }
 }
