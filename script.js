@@ -1,5 +1,9 @@
 "use strict"
+
 let happy = false;
+const dropdown = document.getElementById('dropdown');
+var i = 0;
+var h = 0;
 
 (function () {
     let driver = {
@@ -14,22 +18,35 @@ let happy = false;
         },
         name: "",
         guessCheck: function () {
-            let playerGuess = document.getElementById("guess").value;
+            let result = dropdown.value;
+            let selectedText = document.getElementById(result);
+            let resultText = selectedText.textContent;
+
             let output = document.getElementById("correct");
-            let trueGuess = playerGuess.toLowerCase();
-            let driverName = this.name.toLowerCase();
-            if (trueGuess == driverName) {
+            let driverName = this.name;
+            if (resultText == driverName) {
                 output.innerHTML = "CORRECT";
+                dropdown.disabled = true;
                 happy = true;
             } else {
                 output.innerHTML = "WRONG TRY AGAIN"
             }
         },
         hintCheck: function () {
-            const info = Object.keys(this.info);
-            let LengthOfInfo = Math.floor(Math.random() * objectKey.length);
+            const hText = [`You're 1st hint is that the driver has entered ${this.info.tGP} grand prix`,
+                        `You're 2nd hint is that the driver is from ${this.info.country}`,
+                        `You're 3rd hint is that the driver has ${this.info.points} points`,
+                        `You're 4th hint is that the driver has ${this.info.WC} world championship`,
+                        `You're 5th hint is that the driver has ${this.info.podiums} podiums`,
+                        `You're 6th hint is that the driver drivers for ${this.info.driverTeam}`,
+                        `You're 7th hint is that the driver highest finish is ${this.info.hRF}`];
 
-            console.log("send hint.exe")
+            const text = (h >= 0 && h < hText.length) ? hText[h] : '';
+            h++;  
+            const newHint = document.createElement("p");  
+            const textNode = document.createTextNode(text);
+            newHint.appendChild(textNode);
+            output.appendChild(newHint);
         },
         values: function (obj) {
             let objectKey = Object.keys(obj);
@@ -53,9 +70,28 @@ let happy = false;
             this.info.tGP = driver.totalGrandPrix;
             this.info.WC = driver.WC;
             this.info.hRF = driver.highestRaceFinish;
+            this.iterateObject(obj)
+        },
+        iterateObject: function (obj) {
+            var option = document.createElement("option");
+            for (var key in obj) {
+                if (obj.hasOwnProperty(key)) {
+                    if (typeof obj[key] === 'object' && obj[key] !== null) {
+                        // If the value is an object, recursively call the function
+                        this.iterateObject(obj[key]);
+                    } else if (key === 'name') {
+                        i++;
+                        // If the key is 'name', log the value
+                        option.text = obj[key];
+                        option.value = "option" + (i);
+                        option.id = "option" + (i);
+                        dropdown.appendChild(option);
+                    } 
+                }
+            }
         }
-    }
 
+    }
     $.ajax({
         type:"GET",
         url:"data.json",
@@ -63,14 +99,6 @@ let happy = false;
             driver.values(res);
         }
     });
-    
-    function lock () {
-        if (!happy) {
-            return;
-        }
-        let playerGuess = document.getElementById("guess");
-        playerGuess.value = driver.name;
-    }
 
     function check (selector) {
         if (happy) {
@@ -81,5 +109,4 @@ let happy = false;
     console.log(driver);
 
     window.check = check;
-    window.lock = lock;
   })();
