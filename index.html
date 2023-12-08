@@ -10,18 +10,15 @@
     </head>
     <body>
         <div id="wrapper">
+            <p>Guess the formula one driver from the 2023 season, you have 7 hints</p>
             <form action="" method="GET" id="input" onsubmit="return false;">
-                <select name="dropdown" id="dropdown">
-                </select>
-                <label for="submit"></label>
+                <select name="dropdown" id="dropdown"></select>
                 <input type="submit" id="submit" onclick="check(0)">
-                <label for="hint"> </label>
                 <input type="submit" id="hint" value="Hint" onclick="check(1)">
             </form>
             <div id="output"></div>
             <div id="correct"></div>
         </div>
-        <div></div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
         <script src="script.js"></script>
