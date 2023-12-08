@@ -1,6 +1,6 @@
 "use strict"
 
-let happy = false;
+let happy = false, checked = true, shuffled = [];
 const dropdown = document.getElementById('dropdown');
 var i = 0, h = 0;
 
@@ -33,8 +33,18 @@ var i = 0, h = 0;
             finalText = [`has entered ${this.info.tGP} grand prix`,`is from ${this.info.country}`,`has ${this.info.points} points`,
                 `has ${this.info.WC} world championship`,`has ${this.info.podiums} podiums`,`drivers for ${this.info.driverTeam}`,
                 `highest finish is ${this.info.hRF}`];
+            if (checked) {
+                shuffled = finalText
+                    .map(value => ({ value, sort: Math.random() }))
+                    .sort((a, b) => a.sort - b.sort)
+                    .map(({ value }) => value)
+                checked = false;
+            }
+            
+
+            console.log(shuffled)
     
-            const text = (h >= 0 && h < hText.length) ? `${hText[h]}${finalText[h++]}`: '';
+            const text = (h >= 0 && h < hText.length) ? `${hText[h]}${shuffled[h++]}`: '';
             const newHint = document.createElement("p");
             const textNode = document.createTextNode(text);
             newHint.appendChild(textNode);
